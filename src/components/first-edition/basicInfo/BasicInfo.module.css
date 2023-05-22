@@ -1,0 +1,19 @@
+.basicInfoPrompt {
+  border-top: 1px solid black;
+  margin: 5px;
+  font-size: small;
+}
+.basicInfo {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-top: none;
+}
+
+.basicInfoInput {
+  width: 90%;
+}
+
+.characterName {
+  grid-column: 1 / span 3;
+  
+}
