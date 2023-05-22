@@ -1,0 +1,39 @@
+.basicInfoPrompt {
+  border-top: 1px solid black;
+  margin: 5px;
+  font-size: small;
+}
+.basicInfo {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-top: none;
+}
+
+.basicInfoInput {
+  width: 90%;
+}
+
+.characterName {
+  grid-column: 1 / span 3;
+  
+}
+
+.fear {
+  grid-column: 1 / span 4;
+}
+
+.motivation {
+  grid-column: 1 / span 4;
+}
+
+.description {
+  grid-column: 1 / span 4;
+}
+
+.inventory {
+  grid-column: 1 / span 2;
+}
+
+.notes {
+  grid-column: 3 / span 2;
+}

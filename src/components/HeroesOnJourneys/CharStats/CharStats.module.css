@@ -1,0 +1,10 @@
+.table {
+  border: 2px solid black;
+  color: blue;
+  border-collapse: collapse;
+}
+
+.tableRow, .tableRow > td {
+  border: 2px solid black;
+}
+

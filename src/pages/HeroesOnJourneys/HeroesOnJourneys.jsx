@@ -6,8 +6,9 @@ const HeroesOnJourneys = () => {
   return ( 
     <>
       <h1>Heroes On Journeys</h1>
-      <BasicInfo />
       <CharStats />
+      <div>-----------------</div>
+      <BasicInfo />
     </>
   );
 }
