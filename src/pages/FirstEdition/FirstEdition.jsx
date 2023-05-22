@@ -1,5 +1,5 @@
-import BasicInfo from "../components/first-edition/basicInfo/BasicInfo"
-import CharStats from "../components/first-edition/charStats/CharStats";
+import BasicInfo from "../../components/FirstEdition/BasicInfo/BasicInfo"
+import CharStats from "../../components/FirstEdition/CharStats/CharStats";
 
 const FirstEdition = () => {
   return ( 
