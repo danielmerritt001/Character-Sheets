@@ -17,3 +17,9 @@
   grid-column: 1 / span 3;
   
 }
+
+.vitals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

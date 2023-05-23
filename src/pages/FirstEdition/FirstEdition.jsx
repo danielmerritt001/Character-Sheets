@@ -1,5 +1,6 @@
 import BasicInfo from "../../components/FirstEdition/BasicInfo/BasicInfo"
-import CharStats from "../../components/FirstEdition/CharStats/CharStats";
+import CharStats from "../../components/FirstEdition/CharStats/CharStats"
+import SpellCard from "../../components/FirstEdition/SpellCard/SpellCard";
 
 const FirstEdition = () => {
   return ( 
@@ -8,6 +9,7 @@ const FirstEdition = () => {
       <BasicInfo />
       <h4>----------------------</h4>
       <CharStats />
+      <SpellCard />
     </>
   );
 }
