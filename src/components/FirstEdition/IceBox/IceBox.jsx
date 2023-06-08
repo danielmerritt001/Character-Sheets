@@ -82,6 +82,12 @@ const IceBox = () => {
         <h3>Last Will</h3>
         <div>I___ do hereby _______</div>
       </div>
+      <div className="treasure">
+        <h3>Treasure</h3>
+        <div>coins</div>
+        <div>gems/misc</div>
+        <div>location of treasury</div>
+      </div>
     </main>
   );
 }
