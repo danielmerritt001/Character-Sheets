@@ -6,16 +6,7 @@ const IceBox = () => {
         <div>ac adjustment with without armor</div>
         <div>shield?</div>
       </div>
-      <div className="weapons">
-        <h3>weapons</h3>
-        <div>num of attacks</div>
-        <div>Size</div>
-        <div>speed</div>
-        <div>hit adjustment</div>
-        <div>damage adjustment</div>
-        <div>damage</div>
-        <div>range/special</div>
-      </div>
+      
       <div className="proficiencies">
         <h3>proficiency</h3>
         <div>level of proficiency/ die size/ percentage</div>
