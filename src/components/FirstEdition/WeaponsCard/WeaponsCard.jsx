@@ -3,14 +3,27 @@ const WeaponsCard = () => {
     <>
       <div className="weapons">
         <h3>weapons</h3>
-        <div>num of attacks</div>
-        <div>Size</div>
-        <div>speed</div>
-        <div>hit adjustment</div>
-        <div>damage adjustment</div>
-        <div>damage</div>
-        <div>range/special</div>
       </div>
+      <table>
+        <tr>
+          <th>num of attacks</th>
+          <th>Size</th>
+          <th>speed</th>
+          <th>hit adjustment</th>
+          <th>damage adjustment</th>
+          <th>damage</th>
+          <th>range/special</th>
+        </tr>
+        <tr>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+          <td><input type="text" /></td>
+        </tr>
+      </table>
     </>
   );
 }
