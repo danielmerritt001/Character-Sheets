@@ -1,13 +1,7 @@
 const IceBox = () => {
   return ( 
     <main className="ice-box"> 
-      
-      
-      <div className="movement">
-        <h3>movement</h3>
-        <div>base rate</div>
-        <div>run/ normal/ crawl/ day/ hidden/ special</div>
-      </div>
+    
       <div className="experience">
         <h3>experience</h3>
         <div>current xp</div>

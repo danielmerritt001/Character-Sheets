@@ -7,6 +7,7 @@ import WeaponsCard from "../../components/FirstEdition/WeaponsCard/WeaponsCard";
 import Armor from "../../components/FirstEdition/Armor/Armor";
 import Proficiencies from "../../components/FirstEdition/Proficiencies/Proficiencies";
 import Equipment from "../../components/FirstEdition/Equipment/Equipment";
+import Movement from "../../components/FirstEdition/Movement/Movement";
 
 const FirstEdition = () => {
   return ( 
@@ -21,6 +22,7 @@ const FirstEdition = () => {
       <Armor />
       <Proficiencies />
       <Equipment />
+      <Movement />
       <IceBox />
     </>
   );
