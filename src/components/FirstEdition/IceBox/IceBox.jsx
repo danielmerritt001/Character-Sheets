@@ -3,19 +3,6 @@ const IceBox = () => {
     <main className="ice-box"> 
       
       
-      <div className="proficiencies">
-        <h3>proficiency</h3>
-        <div>level of proficiency/ die size/ percentage</div>
-      </div>
-      <div className="equipment">
-        <h3>equipment</h3>
-        <div>item</div>
-        <div>where it's stored</div>
-        <div>weight</div>
-        <div>usage/ value</div>
-        <div>total weight</div>
-        <div>encumbrance/ encumbrance thresholds</div>
-      </div>
       <div className="movement">
         <h3>movement</h3>
         <div>base rate</div>

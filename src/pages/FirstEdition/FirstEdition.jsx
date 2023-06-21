@@ -6,6 +6,7 @@ import IceBox from "../../components/FirstEdition/IceBox/IceBox";
 import WeaponsCard from "../../components/FirstEdition/WeaponsCard/WeaponsCard";
 import Armor from "../../components/FirstEdition/Armor/Armor";
 import Proficiencies from "../../components/FirstEdition/Proficiencies/Proficiencies";
+import Equipment from "../../components/FirstEdition/Equipment/Equipment";
 
 const FirstEdition = () => {
   return ( 
@@ -19,6 +20,7 @@ const FirstEdition = () => {
       <WeaponsCard />
       <Armor />
       <Proficiencies />
+      <Equipment />
       <IceBox />
     </>
   );
