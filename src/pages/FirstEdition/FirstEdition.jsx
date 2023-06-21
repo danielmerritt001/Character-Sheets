@@ -5,6 +5,7 @@ import Henchmen from "../../components/FirstEdition/Henchmen/Henchmen";
 import IceBox from "../../components/FirstEdition/IceBox/IceBox";
 import WeaponsCard from "../../components/FirstEdition/WeaponsCard/WeaponsCard";
 import Armor from "../../components/FirstEdition/Armor/Armor";
+import Proficiencies from "../../components/FirstEdition/Proficiencies/Proficiencies";
 
 const FirstEdition = () => {
   return ( 
@@ -17,6 +18,7 @@ const FirstEdition = () => {
       <Henchmen />
       <WeaponsCard />
       <Armor />
+      <Proficiencies />
       <IceBox />
     </>
   );
