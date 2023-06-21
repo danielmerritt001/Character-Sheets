@@ -1,13 +1,8 @@
 const IceBox = () => {
   return ( 
     <main className="ice-box"> 
-    
-      <div className="experience">
-        <h3>experience</h3>
-        <div>current xp</div>
-        <div>xp needed</div>
-        <div>bonus to xp</div>
-      </div>
+
+      
       <div className="special-abilities">
         <h3>Special Abilities</h3>
         <div>all thief traits</div>

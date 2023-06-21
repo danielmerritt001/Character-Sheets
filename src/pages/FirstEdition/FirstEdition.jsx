@@ -8,6 +8,8 @@ import Armor from "../../components/FirstEdition/Armor/Armor";
 import Proficiencies from "../../components/FirstEdition/Proficiencies/Proficiencies";
 import Equipment from "../../components/FirstEdition/Equipment/Equipment";
 import Movement from "../../components/FirstEdition/Movement/Movement";
+import Experience from "../../components/FirstEdition/Experience/Experience";
+import ThiefSkills from "../../components/ThiefSkills/ThiefSkills";
 
 const FirstEdition = () => {
   return ( 
@@ -23,6 +25,8 @@ const FirstEdition = () => {
       <Proficiencies />
       <Equipment />
       <Movement />
+      <Experience />
+      <ThiefSkills />
       <IceBox />
     </>
   );
