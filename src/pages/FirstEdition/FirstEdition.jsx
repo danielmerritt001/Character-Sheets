@@ -11,6 +11,7 @@ import Movement from "../../components/FirstEdition/Movement/Movement";
 import Experience from "../../components/FirstEdition/Experience/Experience";
 import ThiefSkills from "../../components/ThiefSkills/ThiefSkills";
 import Parentage from "../../components/FirstEdition/Parentage/Parentage";
+import Highlights from "../../components/FirstEdition/Highlights/Highlights";
 
 const FirstEdition = () => {
   return ( 
@@ -29,6 +30,7 @@ const FirstEdition = () => {
       <Experience />
       <ThiefSkills />
       <Parentage />
+      <Highlights />
       <IceBox />
     </>
   );
