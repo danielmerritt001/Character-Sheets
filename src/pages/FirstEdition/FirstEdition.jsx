@@ -12,6 +12,7 @@ import Experience from "../../components/FirstEdition/Experience/Experience";
 import ThiefSkills from "../../components/ThiefSkills/ThiefSkills";
 import Parentage from "../../components/FirstEdition/Parentage/Parentage";
 import Highlights from "../../components/FirstEdition/Highlights/Highlights";
+import FinalWill from "../../components/FirstEdition/FinalWill/FinalWill";
 
 const FirstEdition = () => {
   return ( 
@@ -31,6 +32,7 @@ const FirstEdition = () => {
       <ThiefSkills />
       <Parentage />
       <Highlights />
+      <FinalWill />
       <IceBox />
     </>
   );
