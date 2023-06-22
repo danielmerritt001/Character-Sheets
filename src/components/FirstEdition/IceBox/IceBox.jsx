@@ -5,18 +5,11 @@ const IceBox = () => {
       
       <div className="special-abilities">
         <h3>Special Abilities</h3>
-        <div>all thief traits</div>
         <div>individual racial traits</div>
         <div>individual other class traits</div>
         <div>blank for customization</div>
       </div>
-      <div className="family">
-        <h3>family chart</h3>
-        <div>family name and honor</div>
-        <div>property owned</div>
-        <div>members of the family and their children</div>
-        <div>individual honor of pc</div>
-      </div>
+      
       <div className="psionics">
         <h3>Psionics???</h3>
       </div>

@@ -10,6 +10,7 @@ import Equipment from "../../components/FirstEdition/Equipment/Equipment";
 import Movement from "../../components/FirstEdition/Movement/Movement";
 import Experience from "../../components/FirstEdition/Experience/Experience";
 import ThiefSkills from "../../components/ThiefSkills/ThiefSkills";
+import Parentage from "../../components/FirstEdition/Parentage/Parentage";
 
 const FirstEdition = () => {
   return ( 
@@ -27,6 +28,7 @@ const FirstEdition = () => {
       <Movement />
       <Experience />
       <ThiefSkills />
+      <Parentage />
       <IceBox />
     </>
   );
