@@ -1,5 +1,7 @@
 const IceBox = () => {
   return ( 
+
+    //add the stat modifiers as a part of basic info!!!
     <main className="ice-box"> 
       <h1>ICE BOX BEGINS</h1>
       
