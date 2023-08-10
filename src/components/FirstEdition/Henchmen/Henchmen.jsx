@@ -1,18 +1,19 @@
+import styles from "./Henchmen.module.css"
 
 const Henchmen = () => {
   return (  
     <>
-      <div className="henchman">
+      <div className={`${styles.henchmen}`}>
         <h3>Henchmen/ Animal Companions</h3>
         <table>
           <tr>
             <th>name</th>
             <th>race/ class</th>
-            <th>ac</th>
-            <th>HD/ lvl</th>
-            <th># Attacks</th>
-            <th>HP</th>
-            <th>THAC0/ or to hit chart</th>
+            <th className={`${styles.ac}`}>ac</th>
+            <th className={`${styles.hitDie}`}>HD/ lvl</th>
+            <th className={`${styles.hitDie}`}># of Attack</th>
+            <th className={`${styles.hp}`}>HP</th>
+            <th className={`${styles.thac0}`}>THAC0/ hit bonus</th>
             <th>Damage</th>
             <th>Abilities</th>
           </tr>
@@ -24,19 +25,19 @@ const Henchmen = () => {
               <input type="text" />
             </td>
             <td>
-              <input type="text" />
+              <input className={`${styles.ac}`} type="text" />
             </td>
             <td>
-              <input type="text" />
+              <input className={`${styles.hitDie}`} type="text" />
             </td>
             <td>
-              <input type="text" />
+              <input className={`${styles.attacks}`} type="text" />
             </td>
             <td>
-              <input type="text" />
+              <input className={`${styles.hp}`} type="text" />
             </td>
             <td>
-              <input type="text" />
+              <input className={`${styles.thac0}`} type="text" />
             </td>
             <td>
               <input type="text" />
